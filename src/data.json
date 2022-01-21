@@ -1,19 +1,32 @@
 {
 	"links": [
 		{
+			"idCode": "react",
 			"intro": "Learn React",
 			"title": "React Documentation",
-			"url": "https://reactjs.org/docs/getting-started.html"
+			"url": "https://reactjs.org/docs/getting-started.html",
+			"favorite": false
 		},
 		{
+			"idCode": "jamstack",
 			"intro": "Learn JAMStack",
 			"title": "JAMStack start site",
-			"url": "https://jamstack.org"
+			"url": "https://jamstack.org",
+			"favorite": true
 		},
 		{
+			"idCode": "netlify",
 			"intro": "Useful CDN Provider",
 			"title": "Netlify",
-			"url": "https://www.netlify.com"
+			"url": "https://www.netlify.com",
+			"favorite": true
+		},
+		{
+			"idCode": "reactRouter",
+			"intro": "Easy menus in React",
+			"title": "React Router",
+			"url": "https://reactrouter.com",
+			"favorite": false
 		}
 	]
 }

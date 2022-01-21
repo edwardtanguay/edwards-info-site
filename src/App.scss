@@ -1,0 +1,25 @@
+body {
+	padding: 20px;
+	background: #333;
+
+	h1 {
+		color: #aaa;
+	}
+
+	li {
+		color: #ccc;
+		font-size: 1.3rem;
+		img {
+			width: 400px;
+			margin: 5px 0 10px 0;
+		}
+	}
+
+	li.favorite {
+		font-weight: bold;
+	}
+
+	a {
+		color: rgb(226, 226, 136);
+	}
+}
