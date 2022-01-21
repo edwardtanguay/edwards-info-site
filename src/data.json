@@ -1,0 +1,14 @@
+{
+	"links": [
+		{
+			"intro": "Learn React",
+			"title": "React Documentation",
+			"url": "https://reactjs.org/docs/getting-started.html"
+		},
+		{
+			"intro": "Learn JAMStack",
+			"title": "JAMStack start site",
+			"url": "https://jamstack.org"
+		}
+	]
+}
