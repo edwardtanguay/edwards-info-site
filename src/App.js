@@ -5,6 +5,7 @@ import siteData from './siteData.json';
 
 function App() {
 	const [employees, setEmployees] = useState([]);
+	const [showPhotos, setShowPhotos] = useState(true);
 
 	useEffect(() => {
 		(async () => {
@@ -14,11 +15,16 @@ function App() {
 		})();
 	}, []);
 
+	const togglePhotos = () => {
+		setShowPhotos(!showPhotos);
+	};
+
 	return (
 		<div className="App">
 			<h1>{siteData.title}</h1>
 			<img src="images/general/profile.jpg" />
 			<h2>Links</h2>
+			<button onClick={togglePhotos}>Toggle Photos</button>
 			<ul>
 				{siteData.links.map(link => {
 					return (
@@ -26,7 +32,9 @@ function App() {
 							<div>
 								{link.intro}: <a href={link.url}>{link.title}</a>
 							</div>
-							<img src={`images/links/${link.idCode}.png`} />
+							{showPhotos && (
+								<img src={`images/links/${link.idCode}.png`} />
+							)}
 						</li>
 					)
 				})}
