@@ -9,6 +9,11 @@
 			"intro": "Learn JAMStack",
 			"title": "JAMStack start site",
 			"url": "https://jamstack.org"
+		},
+		{
+			"intro": "Useful CDN Provider",
+			"title": "Netlify",
+			"url": "https://www.netlify.com"
 		}
 	]
 }

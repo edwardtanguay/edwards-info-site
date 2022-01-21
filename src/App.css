@@ -8,7 +8,8 @@ h1 {
 }
 
 li {
-color: #ccc;
+	color: #ccc;
+	font-size: 1.3rem;
 }
 
 a {
